@@ -22,7 +22,7 @@ console.log("\n");
 
 //3. brickCalcultor...
 console.log("================= 3. Brick Calculator =======================")
-function brickCalcultor(nFloor){
+function brickCalculator(nFloor){
     if(nFloor<=10){
         return nFloor<0 ? -1 : nFloor*15*1000;
     }else if(nFloor<=20){
@@ -33,7 +33,7 @@ function brickCalcultor(nFloor){
 }
 let nFloor = 10;//15,25,55,-1,0
 nFloor<-1 ? console.log("Invalid input")
-:console.log("No. of bricks for",nFloor,"floor =",brickCalcultor(nFloor),"bricks");
+:console.log("No. of bricks for",nFloor,"floor =",brickCalculator(nFloor),"bricks");
 console.log("\n");
 
 //4. tinyFriend...
