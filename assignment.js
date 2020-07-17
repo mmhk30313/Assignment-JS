@@ -49,7 +49,7 @@ function tinyFriend(friends){
     }
     return minName;
 }
-let friends = ["B","A","a","Jhonker","Rasel","Rezaul","Sadia","Manik","Tanvir","Mahadi","Ami"];
+let friends = ["B","A","a","Jhonker-sir","Rasel-sir","Rezaul-sir","Kumo-mam","Manik-sir","Mahadi","Ami"];
 if(tinyFriend(friends)==""){
     console.log("There is an empty String!!!");
 }else{
