@@ -26,7 +26,7 @@ function brickCalculator(nFloor){
     if(nFloor<=10){
         return nFloor<0 ? -1 : nFloor*15*1000;
     }else if(nFloor<=20){
-        return (10*15*1000)+((20-nFloor)*12*1000);
+        return (10*15*1000)+((nFloor-10)*12*1000);
     }else{
         return (10*15*1000)+(10*12*1000)+((nFloor-20)*10*1000);
     }
